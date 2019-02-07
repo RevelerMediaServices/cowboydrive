@@ -18,8 +18,8 @@ const CalendarDiv = styled.div`
   }
 `;
 const Calendar = () => (
-  <Layout>
-    <CalendarDiv>
+  <CalendarDiv>
+    <Layout>
       <NextSeo
         config={{
           title: "Santa & the Mrs of West Texas",
@@ -31,8 +31,8 @@ const Calendar = () => (
         <br /> w/Server Side Rendering
       </h1>
       <p>Reveler Media Services Base SEO Template</p>
-    </CalendarDiv>
-  </Layout>
+    </Layout>
+  </CalendarDiv>
 );
 
 export default Calendar;

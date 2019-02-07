@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -290,7 +290,7 @@ var Navbar = function Navbar() {
       lineNumber: 25
     },
     __self: this
-  }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
@@ -311,7 +311,7 @@ var Navbar = function Navbar() {
       lineNumber: 30
     },
     __self: this
-  }, "About")))))));
+  }, "Calendar")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -330,36 +330,65 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _static_images_saloon_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/images/saloon.jpg */ "./static/images/saloon.jpg");
+/* harmony import */ var _static_images_saloon_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_images_saloon_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\cowboydrive.com\\cowboydrive\\pages\\about.js";
 
 
 
+
+
+var AboutDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+  displayName: "about__AboutDiv",
+  componentId: "sc-1ed34bi-0"
+})(["height:85vh;background-image:url(", ");background-size:100%;background-repeat:no-repeat;h1{color:white;}"], _static_images_saloon_jpg__WEBPACK_IMPORTED_MODULE_3___default.a);
+
 var About = function About() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 22
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    config: {
+      title: "Santa & the Mrs of West Texas",
+      description: "Santa and Mrs Claus services for West Texas"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 24
     },
     __self: this
-  }, "About Reveler Media Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 30
     },
     __self: this
-  }, "Reveler Media Service")));
+  }, "RMS Static Website Template", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), " w/Server Side Rendering"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Reveler Media Services Base SEO Template")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -377,7 +406,18 @@ module.exports = "/_next/static/images/421CDLogo-2a377cf4afbe19c72180457651841f8
 
 /***/ }),
 
-/***/ 5:
+/***/ "./static/images/saloon.jpg":
+/*!**********************************!*\
+  !*** ./static/images/saloon.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/saloon-58ed504272346de055a0afb69776da07.jpg";
+
+/***/ }),
+
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -386,6 +426,17 @@ module.exports = "/_next/static/images/421CDLogo-2a377cf4afbe19c72180457651841f8
 
 module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
 
+
+/***/ }),
+
+/***/ "next-seo":
+/*!***************************!*\
+  !*** external "next-seo" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-seo");
 
 /***/ }),
 
@@ -419,6 +470,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
 
 /***/ })
 

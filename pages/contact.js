@@ -19,8 +19,8 @@ const ContactDiv = styled.div`
 `;
 
 const Contact = () => (
-  <Layout>
-    <ContactDiv>
+  <ContactDiv>
+    <Layout>
       <NextSeo
         config={{
           title: "Santa & the Mrs of West Texas",
@@ -32,8 +32,8 @@ const Contact = () => (
         <br /> w/Server Side Rendering
       </h1>
       <p>Reveler Media Services Base SEO Template</p>
-    </ContactDiv>
-  </Layout>
+    </Layout>
+  </ContactDiv>
 );
 
 export default Contact;
