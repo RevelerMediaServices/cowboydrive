@@ -7,7 +7,9 @@ const Layout = props => (
       <title>Reveler Media Services SEO Template</title>
       <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossOrigin="anonymous"
       />
     </Head>
     <Navbar />

@@ -4,10 +4,10 @@ const Index = props => (
   <Layout>
     <div>
       <h1>
-        RMS Static Website Template
-        <br /> w/Server Side Rendering
+        Cowboy Drive
+        <br /> Country Music Done Right
       </h1>
-      <p>Reveler Media Services Base SEO Template</p>
+      <p>#drankin #smokin #raisinHell</p>
     </div>
   </Layout>
 );
